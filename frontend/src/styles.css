@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #f3f7fb;
+}
+
+.button {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button-secundario {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.button-secundario:hover {
+    color: white;
+    border-color: #6c757d;
+    background-color: #6c757d;
+}
+
+.material-icons {
+    cursor:pointer; cursor: hand;
+    margin-right: 12px;
+}
