@@ -1,0 +1,138 @@
+<div class="container">
+    <div class="row">
+        <div class="col s5">
+            <div class="card">
+                <div class="card-content">
+                    <h6>Personal information</h6>
+                    <form #usuarioForm="ngForm" (ngSubmit)="addUsuario(usuarioForm)">
+                        <input type="hidden" name="_id" #_id="ngModel"
+                            [(ngModel)]="usuarioService.usuarioSeleccionado._id">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input type="text" class="validate" data-length="50" id="nombres" name="nombres" #nombres="ngModel"
+                                    [(ngModel)]="usuarioService.usuarioSeleccionado.nombres"
+                                    placeholder="Armando Esteban" required="" aria-required="true">
+                                <label for="nombres">First name:</label>
+                                <span class="helper-text" data-error="validates if the field is empty or very long first name (50)" data-success=""></span>
+                            </div>
+                            <div class="input-field col s12">
+                                <input type="text" class="validate" id="apellidos" name="apellidos" #apellidos="ngModel"
+                                    [(ngModel)]="usuarioService.usuarioSeleccionado.apellidos"
+                                    placeholder="Quito zapata" required="" aria-required="true">
+                                <label for="apellidos">Last name</label>
+                                <span class="helper-text" data-error="validates if the field is empty or very long first name (50)" data-success=""></span>
+                            </div>
+                            <div class="input-field col s12">
+                                <label for="sexo">Sex:</label>
+                            </div>
+                            <div class="input-field col s12 m3">
+                                <p>
+                                    <label>
+                                      <input id="sexo" class="validate" name="sexo" type="radio" value="M" 
+                                      [(ngModel)]="usuarioService.usuarioSeleccionado.sexo" [checked]="true"
+                                      (change)="onItemChange($event.target.value)"  required="" aria-required="true"/>
+                                      <span>Male</span>
+                                    </label>
+                                </p>
+                            </div>
+                            <div class="input-field col s12 m3">
+                                <p>
+                                    <label>
+                                      <input id="sexo" class="validate" name="sexo" type="radio" value="F"
+                                      [(ngModel)]="usuarioService.usuarioSeleccionado.sexo" [checked]="true"
+                                      (change)="onItemChange($event.target.value)"  required="" aria-required="true"/>
+                                      <span>Female</span>
+                                    </label>
+                                  </p>
+                            </div>
+                            <span class="helper-text" data-error="Field is empty" data-success=""></span>
+                            <div class="input-field col s12">
+                                <input type="number" class="validate" id="telefono" name="telefono" #telefono="ngModel" data-length="12"
+                                    [(ngModel)]="usuarioService.usuarioSeleccionado.telefono" placeholder="123456"  required="" aria-required="true">
+                                <label for="telefono">Phone:</label>
+                                <span class="helper-text" data-error="Field is empty or very long first name (12 max)" data-success=""></span>
+                            </div>
+                            <div class="input-field col s12 m4">
+                                <label for="telefonos">Phone type:</label>
+                            </div>
+                            <div class="input-field col s12 m8">
+                                <select class="browser-default validate" id="tipoTelefono" name="tipoTelefono" #tipoTelefono="ngModel"
+                                [(ngModel)]="usuarioService.usuarioSeleccionado.tipoTelefono" required="" aria-required="true">
+                                    <option value="" disabled selected>Choose your type phone</option>
+                                    <option *ngFor="let typeTel of tipoTelefonoService.listaTipoTelefonos" 
+                                        value="{{typeTel.nombre}}">{{typeTel.nombre}}</option>
+                                </select>
+                                <span class="helper-text" data-error="No option choose" data-success=""></span>
+                            </div>
+                            <div class="input-field col s12">
+                                <input type="email" class="validate" id="correo" name="correo" #correo="ngModel"
+                                    [(ngModel)]="usuarioService.usuarioSeleccionado.correo"
+                                    placeholder="ejemplo@dominiox.com">
+                                <label for="correo">Mail:</label>
+                                <span class="helper-text" data-error="Invalid mail" data-success=""></span>
+                            </div>
+                            <div class="card-action">
+                                <div class="input-field col s12">
+                                    <button class="btn right waves-effect waves-light" type="submit">save</button>
+                                    <button class="btn button button-secundario" (click)="limpiarFormulario(usuarioForm)">clean</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col s7">
+            <div class="row">
+                <h6>List of registered users</h6>
+                <div class="col s12 m6" *ngFor="let us of usuarioService.listaUsuarios">
+                    <div class="card">
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">{{ us.nombres }} {{ us.apellidos }}<i class="material-icons right">more_vert</i></span>
+                          <p><strong>Mail:</strong> {{ us.correo }} </p>
+                          <p><strong>{{ us.tipoTelefono }} phone:</strong> {{ us.telefono }} </p>
+                          <p><strong>Sex:</strong> {{ us.sexo }} </p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Operations<i class="material-icons right">close</i></span>
+                          <p>What actions do you want to take?</p>
+                          <a (click)="modificarUsuario(us)">
+                            <span class="material-icons">
+                                edit
+                            </span>
+                            </a>
+                            <a (click)="eliminarUsuario(us._id)">
+                                <span class="material-icons" style="color: red;">
+                                    delete
+                                </span>
+                            </a>
+                        </div>
+                      </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Negozia - crud in MEAN</h5>
+          <p class="grey-text text-lighten-4">this crud Made by Sebastian Agudelo.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Repositories</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" target="_blank" href="https://github.com/Segaretsu/negozia-crud.git">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2020 Copyright - version 1.0
+      <a class="grey-text text-lighten-4 right" target="_blank" href="http://www.linkedin.com/in/jhonsas">Linkedin</a>
+      </div>
+    </div>
+</footer>
