@@ -185,7 +185,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function UsuariosComponent_option_54_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 51);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "option", 52);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -196,12 +196,12 @@ function UsuariosComponent_option_54_Template(rf, ctx) { if (rf & 1) {
 } }
 function UsuariosComponent_div_72_Template(rf, ctx) { if (rf & 1) {
     const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 52);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 53);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 53);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 54);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "i", 54);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "i", 55);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "more_vert");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -224,25 +224,25 @@ function UsuariosComponent_div_72_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 55);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "span", 56);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 56);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "span", 57);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Operations");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "i", 54);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "i", 55);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "close");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "What actions do you want to take?");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 57);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 58);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function UsuariosComponent_div_72_Template_a_click_26_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r12); const us_r10 = ctx.$implicit; const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r11.modificarUsuario(us_r10); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "span", 58);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "span", 59);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " edit ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 57);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 58);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function UsuariosComponent_div_72_Template_a_click_29_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r12); const us_r10 = ctx.$implicit; const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r13.eliminarUsuario(us_r10._id); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "span", 59);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "span", 60);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, " delete ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -353,7 +353,7 @@ class UsuariosComponent {
     }
 }
 UsuariosComponent.ɵfac = function UsuariosComponent_Factory(t) { return new (t || UsuariosComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_usuario_service__WEBPACK_IMPORTED_MODULE_1__["UsuarioService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_tipo_telefono_service__WEBPACK_IMPORTED_MODULE_3__["TipoTelefonoService"])); };
-UsuariosComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UsuariosComponent, selectors: [["app-usuarios"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([_services_usuario_service__WEBPACK_IMPORTED_MODULE_1__["UsuarioService"]])], decls: 93, vars: 12, consts: [[1, "container"], [1, "row"], [1, "col", "s12", "m12", "l5"], [1, "card"], [1, "card-content"], [3, "ngSubmit"], ["usuarioForm", "ngForm"], ["type", "hidden", "name", "_id", 3, "ngModel", "ngModelChange"], ["_id", "ngModel"], [1, "input-field", "col", "s12"], ["type", "text", "data-length", "50", "id", "nombres", "name", "nombres", "placeholder", "Armando Esteban", "required", "", "aria-required", "true", 1, "validate", 3, "ngModel", "ngModelChange"], ["nombres", "ngModel"], ["for", "nombres"], ["data-error", "validates if the field is empty or very long first name (50)", "data-success", "", 1, "helper-text"], ["type", "text", "id", "apellidos", "name", "apellidos", "placeholder", "Quito zapata", "required", "", "aria-required", "true", 1, "validate", 3, "ngModel", "ngModelChange"], ["apellidos", "ngModel"], ["for", "apellidos"], ["for", "sexo"], [1, "input-field", "col", "s12", "m3"], ["id", "sexo", "name", "sexo", "type", "radio", "value", "M", "required", "", "aria-required", "true", 1, "validate", 3, "ngModel", "checked", "ngModelChange", "change"], ["id", "sexo", "name", "sexo", "type", "radio", "value", "F", "required", "", "aria-required", "true", 1, "validate", 3, "ngModel", "checked", "ngModelChange", "change"], ["data-error", "Field is empty", "data-success", "", 1, "helper-text"], ["type", "number", "id", "telefono", "name", "telefono", "data-length", "12", "placeholder", "123456", "required", "", "aria-required", "true", 1, "validate", 3, "ngModel", "ngModelChange"], ["telefono", "ngModel"], ["for", "telefono"], ["data-error", "Field is empty or very long first name (12 max)", "data-success", "", 1, "helper-text"], [1, "input-field", "col", "s12", "m4"], ["for", "telefonos"], [1, "input-field", "col", "s12", "m8"], ["id", "tipoTelefono", "name", "tipoTelefono", "required", "", "aria-required", "true", 1, "browser-default", "validate", 3, "ngModel", "ngModelChange"], ["tipoTelefono", "ngModel"], ["value", "", "disabled", "", "selected", ""], [3, "value", 4, "ngFor", "ngForOf"], ["data-error", "No option choose", "data-success", "", 1, "helper-text"], ["type", "email", "id", "correo", "name", "correo", "placeholder", "ejemplo@dominiox.com", 1, "validate", 3, "ngModel", "ngModelChange"], ["correo", "ngModel"], ["for", "correo"], ["data-error", "Invalid mail", "data-success", "", 1, "helper-text"], [1, "card-action"], ["type", "submit", 1, "btn", "right", "waves-effect", "waves-light"], [1, "btn", "button", "button-secundario", 3, "click"], [1, "col", "s12", "m12", "l7"], ["class", "col s12 m6", 4, "ngFor", "ngForOf"], [1, "page-footer", "footer-bottom"], [1, "col", "l6", "s12"], [1, "white-text"], [1, "grey-text", "text-lighten-4"], [1, "col", "l4", "offset-l2", "s12"], ["target", "_blank", "href", "https://github.com/Segaretsu/negozia-crud.git", 1, "grey-text", "text-lighten-3"], [1, "footer-copyright"], ["target", "_blank", "href", "http://www.linkedin.com/in/jhonsas", 1, "grey-text", "text-lighten-4", "right"], [3, "value"], [1, "col", "s12", "m6"], [1, "card-title", "activator", "grey-text", "text-darken-4"], [1, "material-icons", "right"], [1, "card-reveal"], [1, "card-title", "grey-text", "text-darken-4"], [3, "click"], [1, "material-icons"], [1, "material-icons", 2, "color", "red"]], template: function UsuariosComponent_Template(rf, ctx) { if (rf & 1) {
+UsuariosComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UsuariosComponent, selectors: [["app-usuarios"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([_services_usuario_service__WEBPACK_IMPORTED_MODULE_1__["UsuarioService"]])], decls: 97, vars: 12, consts: [[1, "container"], [1, "row"], [1, "col", "s12", "m12", "l5"], [1, "card"], [1, "card-content"], [3, "ngSubmit"], ["usuarioForm", "ngForm"], ["type", "hidden", "name", "_id", 3, "ngModel", "ngModelChange"], ["_id", "ngModel"], [1, "input-field", "col", "s12"], ["type", "text", "data-length", "50", "id", "nombres", "name", "nombres", "placeholder", "Armando Esteban", "required", "", "aria-required", "true", 1, "validate", 3, "ngModel", "ngModelChange"], ["nombres", "ngModel"], ["for", "nombres"], ["data-error", "validates if the field is empty or very long first name (50)", "data-success", "", 1, "helper-text"], ["type", "text", "id", "apellidos", "name", "apellidos", "placeholder", "Quito zapata", "required", "", "aria-required", "true", 1, "validate", 3, "ngModel", "ngModelChange"], ["apellidos", "ngModel"], ["for", "apellidos"], ["for", "sexo"], [1, "input-field", "col", "s12", "m3"], ["id", "sexo", "name", "sexo", "type", "radio", "value", "M", "required", "", "aria-required", "true", 1, "validate", 3, "ngModel", "checked", "ngModelChange", "change"], ["id", "sexo", "name", "sexo", "type", "radio", "value", "F", "required", "", "aria-required", "true", 1, "validate", 3, "ngModel", "checked", "ngModelChange", "change"], ["data-error", "Field is empty", "data-success", "", 1, "helper-text"], ["type", "number", "id", "telefono", "name", "telefono", "data-length", "12", "placeholder", "123456", "required", "", "aria-required", "true", 1, "validate", 3, "ngModel", "ngModelChange"], ["telefono", "ngModel"], ["for", "telefono"], ["data-error", "Field is empty or very long first name (12 max)", "data-success", "", 1, "helper-text"], [1, "input-field", "col", "s12", "m4"], ["for", "telefonos"], [1, "input-field", "col", "s12", "m8"], ["id", "tipoTelefono", "name", "tipoTelefono", "required", "", "aria-required", "true", 1, "browser-default", "validate", 3, "ngModel", "ngModelChange"], ["tipoTelefono", "ngModel"], ["value", "", "disabled", "", "selected", ""], [3, "value", 4, "ngFor", "ngForOf"], ["data-error", "No option choose", "data-success", "", 1, "helper-text"], ["type", "email", "id", "correo", "name", "correo", "placeholder", "ejemplo@dominiox.com", 1, "validate", 3, "ngModel", "ngModelChange"], ["correo", "ngModel"], ["for", "correo"], ["data-error", "Invalid mail", "data-success", "", 1, "helper-text"], [1, "card-action"], ["type", "submit", 1, "btn", "right", "waves-effect", "waves-light"], [1, "btn", "button", "button-secundario", 3, "click"], [1, "col", "s12", "m12", "l7"], ["class", "col s12 m6", 4, "ngFor", "ngForOf"], [1, "page-footer", "footer-bottom"], [1, "col", "l6", "s12"], [1, "white-text"], [1, "grey-text", "text-lighten-4"], ["target", "_blank", "href", "http://www.linkedin.com/in/jhonsas", 1, "grey-text", "text-lighten-4", "right"], [1, "col", "l4", "offset-l2", "s12"], ["target", "_blank", "href", "https://github.com/Segaretsu/negozia-crud.git", 1, "grey-text", "text-lighten-3"], ["target", "_blank", "href", "https://github.com/Segaretsu/negozia-crud-automation", 1, "grey-text", "text-lighten-3"], [1, "footer-copyright"], [3, "value"], [1, "col", "s12", "m6"], [1, "card-title", "activator", "grey-text", "text-darken-4"], [1, "material-icons", "right"], [1, "card-reveal"], [1, "card-title", "grey-text", "text-darken-4"], [3, "click"], [1, "material-icons"], [1, "material-icons", 2, "color", "red"]], template: function UsuariosComponent_Template(rf, ctx) { if (rf & 1) {
         const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
@@ -484,29 +484,36 @@ UsuariosComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Negozia - crud in MEAN");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "p", 46);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "this crud Made by Sebastian Agudelo.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "div", 47);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "h5", 45);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "Repositories");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "a", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "Github");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "this crud Made by ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "a", 47);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "Sebastian Agudelo");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div", 48);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "h5", 45);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, "Repositories");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "a", 49);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "Github - app");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "div", 49);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, " \u00A9 2020 Copyright - version 1.0 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "a", 50);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](92, "Linkedin");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "a", 50);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "Github - Automation");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "div", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, " \u00A9 2020 Copyright - version 1.0 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
