@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./backend/index.js",
-    "build": "cd frontend && npm install -g angular-cli",
+    "build": "cd frontend && ng build",
+    "preinstall": "cd frontend && npm install -g angular-cli",
     "postinstall": "npm run build",
     "dev": "nodemon backend/index.js"
   },
