@@ -15,7 +15,7 @@ app.set('front-end' , path.join(__dirname.replace('backend', ''), 'frontend/dist
 /* Middlewares */
 app.use(morgan('dev')); // Ejecuta funciones
 app.use(express.json());
-app.use(cors({origin:'http://localhost:4200'}));
+app.use(cors({origin:'https://negozia-crud.herokuapp.com/'}));
 // static file
 app.use(express.static(app.get('front-end')));
 // C:\Users\Sebastian\Documents\Programacion\Proyectos\Apps\Negozia\backend

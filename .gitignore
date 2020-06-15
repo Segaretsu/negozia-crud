@@ -4,7 +4,7 @@
 ### Angular ###
 ## Angular ##
 # compiled output
-dist/
+#dist/
 tmp/
 app/**/*.js
 app/**/*.js.map
@@ -113,7 +113,7 @@ jspm_packages/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+#dist
 
 # Gatsby files
 .cache/
