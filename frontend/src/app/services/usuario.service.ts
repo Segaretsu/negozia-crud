@@ -10,7 +10,7 @@ export class UsuarioService {
 
   usuarioSeleccionado: Usuario;
   listaUsuarios: Usuario[];
-  readonly URL_API = 'http://localhost:3000/negoziaback/usuarios';
+  readonly URL_API = 'https://negozia-crud.herokuapp.com/negoziaback/usuarios';
 
   constructor(private http: HttpClient) { 
     this.usuarioSeleccionado = new Usuario();

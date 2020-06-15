@@ -9,7 +9,7 @@ export class TipoTelefonoService {
 
   tipoTelefonoActual: TipoTelefono;
   listaTipoTelefonos: TipoTelefono[];
-  readonly URL_API = 'http://localhost:3000/negoziaback/tipoTelefonos';
+  readonly URL_API = 'https://negozia-crud.herokuapp.com/negoziaback/tipoTelefonos';
 
   constructor(private http: HttpClient) { 
     this.tipoTelefonoActual = new TipoTelefono();
