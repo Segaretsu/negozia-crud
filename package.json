@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./backend/index.js",
+	"build":"npm start",
     "preinstall": "cd frontend && npm install -g @angular/cli@latest",
+	"postinstall":"npm build"
     "dev": "nodemon backend/index.js"
   },
   "keywords": [],
