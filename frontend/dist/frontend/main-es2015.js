@@ -610,7 +610,7 @@ __webpack_require__.r(__webpack_exports__);
 class TipoTelefonoService {
     constructor(http) {
         this.http = http;
-        this.URL_API = 'http://localhost:3000/negoziaback/tipoTelefonos';
+        this.URL_API = 'https://negozia-crud.herokuapp.com/negoziaback/tipoTelefonos';
         this.tipoTelefonoActual = new _models_tipo_telefono__WEBPACK_IMPORTED_MODULE_1__["TipoTelefono"]();
     }
     getListaTipoTelefonos() {
@@ -658,7 +658,7 @@ __webpack_require__.r(__webpack_exports__);
 class UsuarioService {
     constructor(http) {
         this.http = http;
-        this.URL_API = 'http://localhost:3000/negoziaback/usuarios';
+        this.URL_API = 'https://negozia-crud.herokuapp.com/negoziaback/usuarios';
         this.usuarioSeleccionado = new _models_usuario__WEBPACK_IMPORTED_MODULE_1__["Usuario"]();
     }
     getUsuarios() {
