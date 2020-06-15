@@ -8,7 +8,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./backend/index.js",
-    "heroku-postbuild":"cd frontend && npm install",
     "dev": "nodemon backend/index.js"
   },
   "keywords": [],
