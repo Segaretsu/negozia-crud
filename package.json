@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./backend/index.js",
     "build": "cd frontend && ng build",
-    "preinstall": "cd frontend && npm install -g @angular/cli@latest",
+    "preinstall": "cd frontend && npm install -g @angular/cli@latest && npm install -g @angular-devkit/build-angular",
     "postinstall": "npm run build",
     "dev": "nodemon backend/index.js"
   },
